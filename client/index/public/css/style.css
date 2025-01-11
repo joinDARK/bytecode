@@ -1,0 +1,94 @@
+/* Глобальные стили */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+button, input {
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    background-color: transparent;
+}
+
+button.uppercase, input.uppercase { 
+    text-transform: uppercase;
+}
+
+button.sm, input.sm {
+    padding: 8px 16px;
+}
+
+button.md, input.md {
+    padding: 10px 20px;
+}
+
+button.lg, input.lg {
+    padding: 12px 22px;
+}
+
+button.xl, input.xl {
+    padding: 14px 28px;
+}
+
+button.outlined, input.outlined {
+    border-width: 1px;
+    border-style: solid;
+}
+
+button.blur, input.blur {
+    backdrop-filter: blur(6px);
+}
+
+button.rounded-full, input.rounded-full {
+    border-radius: 200px;
+}
+
+div.chip {
+    border-radius: 6px;
+}
+
+div.chip.outlined {
+    border-width: 1px;
+    border-style: solid;
+}
+
+div.chip.blur {
+    bbackdrop-filter: blur(6px);
+}
+
+input.bordered {
+    border: 1px solid;
+}
+
+/* Цвета по умолчанию */
+
+.gray {
+    color: white;
+    background-color: rgba(28, 28, 28, 1);
+    border-color: #252525;
+}
+
+.blur.gray {
+    color: white;
+    background-color: rgba(28, 28, 28, 0.8);
+    border-color: #252525;
+}
+
+.text-gray {
+    color: rgba(28, 28, 28, 1);
+}
+
+/* Стили компонентов */
+
+.chip-1 {
+    padding: 10px;
+}
